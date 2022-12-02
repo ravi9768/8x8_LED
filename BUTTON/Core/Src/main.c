@@ -69,7 +69,7 @@ int main(void)
 	uint32_t *pmodeA =(uint32_t *)0x40020000;      //(0x40020000 + 0x00)
 	uint32_t *ppinA =(uint32_t *)0x40020014;         //(0x40020000 + 0x10)
 	uint32_t *pmodeE =(uint32_t *)0x40021000;      //(0x40021000 + 0x00)
-	uint32_t *ppinE =(uint32_t *)0x40021010;          //(0x40021000 + 0x10)
+	//uint32_t *ppinE =(uint32_t *)0x40021010;          //(0x40021000 + 0x10)
 
 	*pclock |= 0x00000001;
     //*pclock |= 0x00000010; ravi
