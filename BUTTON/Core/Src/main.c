@@ -72,7 +72,7 @@ int main(void)
 	uint32_t *ppinE =(uint32_t *)0x40021010;          //(0x40021000 + 0x10)
 
 	*pclock |= 0x00000001;
-    *pclock |= 0x00000010;
+    //*pclock |= 0x00000010; ravi
 
 	   // Mode A pin 6,7 output mode enable
 
